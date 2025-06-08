@@ -1,41 +1,39 @@
-# SmartQueue - Gerenciador de Filas
+# SmartQueue
 
-SmartQueue é um web app para facilitar o gerenciamento de filas em estabelecimentos, melhorando a organização e a experiência dos clientes.
+SmartQueue is a simple and functional web application for managing customer queues in real time. It allows customers to enter a digital line and lets employees call the next person easily.
 
-## Funcionalidades principais
+This project was developed for the **Tech Documentation Writing Project**, where the main goal is to practice writing clear and structured documentation using a real example.
 
-- Cadastro de clientes na fila
-- Visualização da fila para funcionários
-- Atualização em tempo real da posição na fila
-- Interface responsiva para dispositivos móveis e desktop
+## Features
 
-## Tecnologias utilizadas
+- Join a virtual queue with a single click
+- Admin view to call the next customer
+- Real-time position update for the customer
+- Responsive layout with clean UI
 
-React, JavaScript, HTML, CSS
+## Technologies Used
 
-## Como usar
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
 
-1. Clone o repositório:  
-   `git clone https://github.com/ItaloZubat/smartqueue.git`
+## How to Use
 
-2. Instale as dependências:  
-   `npm install`
+1. Clone the repository.
+2. Open the `index.html` file in any modern web browser.
+3. Click “Enter Queue” as a client or “Call Next” as an employee.
+4. Watch the queue update in real time.
 
-3. Execute o projeto:  
-   `npm start`
+## Authors
 
-4. Acesse `http://localhost:3000` no navegador.
-
-## Documentação completa
-
-Veja a documentação detalhada em [DOCS.md](https://senacpernambuco-my.sharepoint.com/:w:/g/personal/italo_melo_edu_pe_senac_br/EbSvbudkEEFHj4W0vOqgiIcBhpEM913fYWaeRPT107lAyQ?e=1VEqkj).
-
-## Deploy online
-
-O projeto está hospedado no Netlify e pode ser acessado aqui: (https://smartqueue-senac.netlify.app/)
+- Ítalo Ribeiro
+- Gabriel Pereira
+- Amanda Galvão
+- Vinícius Pontes
+- Pedro Lucas
 
 ---
 
-## Licença
+##  Project Summary (in Portuguese)
 
-MIT License
+**SmartQueue** é um aplicativo web simples para simular a gestão de filas de clientes em tempo real. O foco do projeto é a criação de uma documentação técnica completa, clara e em inglês, com base em um exemplo funcional. O código é simples, mas reflete situações reais do cotidiano de software.

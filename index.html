@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartQueue</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>SmartQueue</h1>
+    <div class="client-section">
+      <h2>Cliente</h2>
+      <button onclick="enterQueue()">Entrar na Fila</button>
+      <p id="client-position">Você ainda não entrou na fila.</p>
+    </div>
+
+    <div class="admin-section">
+      <h2>Atendente</h2>
+      <button onclick="nextClient()">Chamar Próximo</button>
+      <p id="queue-status">Fila vazia</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
