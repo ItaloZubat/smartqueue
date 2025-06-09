@@ -11,5 +11,14 @@ This guide will help you set up and run the SmartQueue web application on your l
 ## Installation Steps
 
 1. **Clone the repository**
-   ```bash
-   git clone https://github.com/ItaloZubat/smartqueue.git
+
+git clone https://github.com/ItaloZubat/smartqueue.git
+
+2. Open the index.html file in any modern web browser. 
+
+(Optional) If you prefer using a local server:
+
+3. Install the "Live Server" extension in VS Code.
+4. Right-click index.html and select "Open with Live Server".
+5. Fill the forms and enter the queue
+6. The queue will update in real time.

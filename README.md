@@ -6,7 +6,7 @@ This project was developed for the **Tech Documentation Writing Project**, where
 
 ## Features
 
-- Join a virtual queue with one click
+- Join a virtual queue with a few clicks
 - Admin view to call the next customer
 - Real-time position updates for the customer
 - Responsive layout and clean UI
@@ -34,7 +34,7 @@ git clone https://github.com/ItaloZubat/smartqueue.git
 ## Authors
 
 - Ítalo Ribeiro
-- Gabriel Pereira
+- Gabriel Victor
 - Amanda Galvão
 - Vinícius Pontes
 - Pedro Lucas
