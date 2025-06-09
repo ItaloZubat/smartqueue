@@ -1,25 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SmartQueue</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fila Restaurante</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
-    <h1>SmartQueue</h1>
+    <h1>Fila do Restaurante</h1>
+
     <div class="client-section">
-      <h2>Cliente</h2>
-      <button onclick="enterQueue()">Entrar na Fila</button>
-      <p id="client-position">Você ainda não entrou na fila.</p>
+      <h2>Adicionar Cliente</h2>
+      <form id="queue-form">
+        <div class="form-group">
+          <input type="text" id="name" placeholder="Nome" required />
+        </div>
+        <div class="form-group">
+          <input type="number" id="people" placeholder="Número de pessoas" min="1" required />
+        </div>
+        <div class="form-group checkbox-group">
+          <input type="checkbox" id="outside" />
+          <label for="outside">Preferência por mesa externa</label>
+        </div>
+        <button type="submit">Adicionar à Fila</button>
+      </form>
     </div>
 
     <div class="admin-section">
-      <h2>Atendente</h2>
+      <h2>Atendimento</h2>
       <button onclick="nextClient()">Chamar Próximo</button>
+      <button onclick="clearQueue()" class="clear-button">Limpar Fila</button>
       <p id="queue-status">Fila vazia</p>
+      <ul id="queue-list"></ul>
     </div>
+  </div>
+
+  <div id="client-modal" class="modal">
+    <div id="modal-content" class="modal-content"></div>
   </div>
 
   <script src="script.js"></script>
